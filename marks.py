@@ -13,15 +13,15 @@ b = int(a)
 
 if b >= 90 and b <= 100:
     print('Outstanding')
-elif b >= 80 and b <= 90:
+elif b >= 80 and b < 90:
     print("Excellence")
-elif b >= 70 and b <= 80:
+elif b >= 70 and b < 80:
     print("Very Good")
-elif b >= 60 and b <= 70:
+elif b >= 60 and b < 70:
     print("Good")
-elif b >= 50 and b <= 60:
+elif b >= 50 and b < 60:
     print("Mild")
-elif b >= 40 and b <= 50:
+elif b >= 40 and b < 50:
     print("Passed")
 else:
     print("Failed")
