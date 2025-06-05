@@ -25,3 +25,5 @@ elif b >= 40 and b < 50:
     print("Passed")
 else:
     print("Failed")
+
+
