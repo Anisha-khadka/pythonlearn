@@ -16,7 +16,9 @@ elif c == '*':
     d = a*b
 elif c == '/':
     d = a/b
-else:
+elif c == '%':
     d = a % b
-    
+else:
+    print('choose one of the symbol')
+
 print(d)
