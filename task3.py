@@ -1,22 +1,20 @@
-# login
-# make a dictionary with user datas
-# a = {'ram': 'ram@gmail.com'}
-# ask the user for username and password
-# check whether the username and password is in a user data or not in the dictionary
-# if it is then print login successful
-# else print invalid credentials
+tasks = []
 
-user_registry = {
-    'anisha': 'anisha123',
-    'ram': 'ram456',
-    'hari': 'hari789',
-    'ashish': 'ashish000'
-}
-
-username = input("Enter your username:")
-password = input("Enter your password:")
-
-if username in user_registry and password == user_registry[username]:
-    print('login sucessful')
-else:
-    print('invalid credentials')
+while True:
+    a = 0
+    for i in tasks:
+        print(str(a) + '->' + i)
+        a+=1
+    user_choice=input("Enter the operation you want to perform: 1. Add task 2. Remove task 3.End program:")
+    if user_choice=='1':
+        add_task=input("Enter the task you want to add:")
+        tasks.append(add_task)
+    elif user_choice=='2':
+        remove_task=int(input("Enter the number of the task you want to remove:"))
+        tasks.pop(remove_task)
+    elif user_choice =='3':
+        break
+    else:
+        print('invalid chocie')
+        
+        
