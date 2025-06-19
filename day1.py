@@ -162,10 +162,11 @@
 #     if a == 5:
 #         break
 
-a=1
-b=5
-while b>a:
-    a+=1
-    if a==2:
-        continue
-    print('Hello people')
+# a=1
+# b=5
+# while b>a:
+#     a+=1
+#     if a==2:
+#         continue
+#     print('Hello people')
+
