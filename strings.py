@@ -80,4 +80,14 @@ print(s.count('t'))
 # e. encode(returns the encoded version of string)
 print(s.encode()) 
 
+#boolean
 
+
+# class myclass():
+#     def __len__(self):
+#         return 0
+# obj=myclass()
+# print(bool(obj))
+
+# x=200
+# print(isinstance(x,float))
